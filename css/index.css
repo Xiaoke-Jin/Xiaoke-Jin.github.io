@@ -1303,8 +1303,8 @@ canvas:not(#ribbon-canvas),
   --global-font-size: 14px;
   --global-bg: #fff;
   --font-color: #4c4948;
-  --hr-border: #d2ebfd;
-  --hr-before-color: #bfe4fb;
+  --hr-border: #bdb4f7;
+  --hr-before-color: #a395f3;
   --search-bg: #f6f8fa;
   --search-input-color: #4c4948;
   --search-result-title: #4c4948;
@@ -1319,8 +1319,8 @@ canvas:not(#ribbon-canvas),
   --sidebar-bg: #f6f8fa;
   --btn-hover-color: #ff7242;
   --btn-color: #fff;
-  --btn-bg: #9400d3;
-  --text-bg-hover: rgba(148,0,211,0.7);
+  --btn-bg: #20b2aa;
+  --text-bg-hover: rgba(32,178,170,0.7);
   --light-grey: #eee;
   --white: #fff;
   --text-highlight-color: #1f2d3d;
@@ -1462,7 +1462,7 @@ a {
   overflow-wrap: break-word;
 }
 a:hover {
-  color: #9400d3;
+  color: #20b2aa;
 }
 #site-title,
 #site-subtitle,
@@ -1818,7 +1818,7 @@ blockquote footer cite:before {
   transition: color 0.2s;
 }
 #article-container .highlight-tools .copy-button:hover {
-  color: #9400d3;
+  color: #20b2aa;
 }
 #article-container .gutter {
   -webkit-user-select: none;
@@ -2047,7 +2047,7 @@ blockquote footer cite:before {
   height: 100%;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  background-color: #9400d3;
+  background-color: #20b2aa;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2123,7 +2123,7 @@ blockquote footer cite:before {
 .article-sort {
   margin-left: 0.5rem;
   padding-left: 1rem;
-  border-left: 2px solid #c43aff;
+  border-left: 2px solid #57e1d9;
 }
 .article-sort-title {
   position: relative;
@@ -2142,7 +2142,7 @@ blockquote footer cite:before {
   z-index: 1;
   width: 0.5rem;
   height: 0.5rem;
-  border: 0.25rem solid #9400d3;
+  border: 0.25rem solid #20b2aa;
   border-radius: 0.5rem;
   background: var(--card-bg);
   content: '';
@@ -2160,7 +2160,7 @@ blockquote footer cite:before {
   z-index: 0;
   width: 0.1rem;
   height: 1.5em;
-  background: #c43aff;
+  background: #57e1d9;
   content: '';
 }
 .article-sort-item {
@@ -2192,7 +2192,7 @@ blockquote footer cite:before {
   left: calc(-1rem - 17px);
   width: 0.3rem;
   height: 0.3rem;
-  border: 0.15rem solid #9400d3;
+  border: 0.15rem solid #20b2aa;
   border-radius: 0.3rem;
   background: var(--card-bg);
   content: '';
@@ -2212,7 +2212,7 @@ blockquote footer cite:before {
   font-size: 1.43em;
 }
 .article-sort-item.year:hover:before {
-  border-color: #9400d3;
+  border-color: #20b2aa;
 }
 .article-sort-item.year:before {
   border-color: #ff7242;
@@ -2236,7 +2236,7 @@ blockquote footer cite:before {
   -webkit-line-clamp: 2;
 }
 .article-sort-item-title:hover {
-  color: #9400d3;
+  color: #20b2aa;
   -webkit-transform: translateX(10px);
   -moz-transform: translateX(10px);
   -o-transform: translateX(10px);
@@ -2295,7 +2295,7 @@ blockquote footer cite:before {
   color: var(--font-color);
 }
 #page .category-lists .category-list a:hover {
-  color: #9400d3;
+  color: #20b2aa;
 }
 #page .category-lists .category-list .category-list-count {
   margin-left: 0.4rem;
@@ -2333,7 +2333,7 @@ blockquote footer cite:before {
   top: 0.7em;
   width: 0.43em;
   height: 0.43em;
-  border: 0.215em solid #9400d3;
+  border: 0.215em solid #20b2aa;
   border-radius: 0.43em;
   background: transparent;
   content: '';
@@ -2658,7 +2658,7 @@ blockquote footer cite:before {
   -webkit-line-clamp: 2;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title:hover {
-  color: #9400d3;
+  color: #20b2aa;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
   color: #858585;
@@ -2689,7 +2689,7 @@ blockquote footer cite:before {
   color: #858585;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
-  color: #9400d3;
+  color: #20b2aa;
   text-decoration: underline;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .content {
@@ -2747,7 +2747,7 @@ blockquote footer cite:before {
   transition: all 0.3s;
 }
 .tag-cloud-list a:hover {
-  color: #9400d3 !important;
+  color: #20b2aa !important;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
@@ -2890,7 +2890,7 @@ blockquote footer cite:before {
   padding: 0 0.2rem;
 }
 #aside-content .card-tag-cloud a:hover {
-  color: #9400d3 !important;
+  color: #20b2aa !important;
 }
 #aside-content .aside-list > span {
   display: block;
@@ -2972,7 +2972,7 @@ blockquote footer cite:before {
 }
 #aside-content .aside-list > .aside-list-item .content > .title:hover,
 #aside-content .aside-list > .aside-list-item .content > .comment:hover {
-  color: #9400d3;
+  color: #20b2aa;
 }
 #aside-content .aside-list > .aside-list-item.no-cover {
   min-height: 4.4em;
@@ -3479,7 +3479,7 @@ blockquote footer cite:before {
 }
 #footer {
   position: relative;
-  background: #9400d3;
+  background: #20b2aa;
   background-attachment: local;
   background-position: bottom;
   -webkit-background-size: cover;
@@ -3510,7 +3510,7 @@ blockquote footer cite:before {
 #page-header {
   position: relative;
   width: 100%;
-  background-color: #9400d3;
+  background-color: #20b2aa;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -3680,7 +3680,7 @@ blockquote footer cite:before {
 #page-header.nav-fixed #nav a:hover,
 #page-header.nav-fixed #nav #site-name:hover,
 #page-header.nav-fixed #nav #toggle-menu:hover {
-  color: #9400d3;
+  color: #20b2aa;
 }
 #page-header.nav-visible #nav {
   -webkit-transition: all 0.5s;
@@ -3775,7 +3775,7 @@ blockquote footer cite:before {
   transition: all 0.3s ease-out;
 }
 #post-info #post-meta a:hover {
-  color: #9400d3;
+  color: #20b2aa;
   text-decoration: underline;
 }
 #nav {
@@ -3949,7 +3949,7 @@ blockquote footer cite:before {
   z-index: -1;
   width: 0;
   height: 3px;
-  background-color: #c12eff;
+  background-color: #4ddfd7;
   content: '';
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -4462,7 +4462,7 @@ blockquote footer cite:before {
   overflow-wrap: break-word;
 }
 #article-container a {
-  color: #99a9bf;
+  color: #87cefa;
 }
 #article-container a:hover {
   text-decoration: underline;
@@ -4547,7 +4547,7 @@ blockquote footer cite:before {
 #article-container.post-content h4:hover:before,
 #article-container.post-content h5:hover:before,
 #article-container.post-content h6:hover:before {
-  color: #9400d3;
+  color: #20b2aa;
 }
 #article-container.post-content h1 {
   padding-left: 1.4rem;
@@ -4676,7 +4676,7 @@ blockquote footer cite:before {
   position: absolute;
   top: 0;
   left: 0;
-  background: #9400d3;
+  background: #20b2aa;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
@@ -4709,7 +4709,7 @@ blockquote footer cite:before {
   top: 0.78em;
   width: 0.42em;
   height: 0.42em;
-  border: 0.21em solid #9400d3;
+  border: 0.21em solid #20b2aa;
   border-radius: 0.42em;
   background: transparent;
   content: '';
@@ -4726,9 +4726,9 @@ blockquote footer cite:before {
   margin: 0.4rem 0.4rem 0.4rem 0;
   padding: 0 0.6rem;
   width: fit-content;
-  border: 1px solid #9400d3;
+  border: 1px solid #20b2aa;
   border-radius: 0.6rem;
-  color: #9400d3;
+  color: #20b2aa;
   font-size: 0.85em;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -4737,7 +4737,7 @@ blockquote footer cite:before {
   transition: all 0.2s ease-in-out;
 }
 #post .tag_share .post-meta__tags:hover {
-  background: #9400d3;
+  background: #20b2aa;
   color: var(--white);
 }
 #post .tag_share .post_share {
@@ -4771,7 +4771,7 @@ blockquote footer cite:before {
   position: absolute;
   top: 0.1rem;
   right: 0.6rem;
-  color: #9400d3;
+  color: #20b2aa;
   content: '\f1f9';
   font-size: 1rem;
 }
@@ -4780,7 +4780,7 @@ blockquote footer cite:before {
   box-shadow: 0 0 8px 0 rgba(232,237,250,0.6), 0 2px 4px 0 rgba(232,237,250,0.5);
 }
 #post .post-copyright .post-copyright-meta {
-  color: #9400d3;
+  color: #20b2aa;
   font-weight: bold;
 }
 #post .post-copyright .post-copyright-info {
@@ -5146,7 +5146,7 @@ blockquote footer cite:before {
 }
 #waline-wrap {
   --waline-font-size: 1.1em;
-  --waline-theme-color: #9400d3;
+  --waline-theme-color: #20b2aa;
   --waline-active-color: #ff7242;
   --waline-avatar-size: 2.75rem;
 }
@@ -5542,7 +5542,7 @@ blockquote.pullquote.right {
 .hide-block > .hide-button {
   display: inline-block;
   padding: 0.3rem 1rem;
-  background: #9400d3;
+  background: #20b2aa;
   color: var(--white);
 }
 .hide-inline > .hide-button.open,
@@ -6017,7 +6017,7 @@ blockquote.pullquote.right {
   width: 1.5em;
 }
 #article-container .tabs > .nav-tabs > .tab.active button {
-  border-top: 2px solid #9400d3;
+  border-top: 2px solid #20b2aa;
   background: var(--tab-button-active-bg);
   cursor: default;
 }
