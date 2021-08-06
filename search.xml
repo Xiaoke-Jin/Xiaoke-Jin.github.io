@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>一个开源博客项目</title>
-      <link href="/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
-      <url>/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://sunhwee.com/posts/6e8839eb.html#toc-heading-1">Hexo+Github博客搭建完全教程</a></p><hr>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Github访问优化</title>
       <link href="/20201/08/01/Github/Github%E8%AE%BF%E9%97%AE%E5%8A%A0%E9%80%9F/"/>
       <url>/20201/08/01/Github/Github%E8%AE%BF%E9%97%AE%E5%8A%A0%E9%80%9F/</url>
@@ -61,11 +42,30 @@
     
     
     <entry>
+      <title>一个开源博客项目</title>
+      <link href="/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+      <url>/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://sunhwee.com/posts/6e8839eb.html#toc-heading-1">Hexo+Github博客搭建完全教程</a></p><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Butterfly主题及其美化</title>
       <link href="/20201/07/30/Hexo/Butterfly%E4%B8%BB%E9%A2%98%E5%8F%8A%E5%85%B6%E7%BE%8E%E5%8C%96/"/>
       <url>/20201/07/30/Hexo/Butterfly%E4%B8%BB%E9%A2%98%E5%8F%8A%E5%85%B6%E7%BE%8E%E5%8C%96/</url>
       
-        <content type="html"><![CDATA[<h2 id="官方文档">官方文档</h2><ul><li><a href="https://butterfly.js.org/">Butterfly官方文档</a></li></ul><h2 id="卷二兔">卷二兔</h2><ul><li><a href="https://blog.juanertu.com/archives/54c51cfa.html">图片自适应 webp 及全站 CDN 加速</a></li><li><a href="https://blog.juanertu.com/archives/e358bc47.html">更换博客背景图片及图片压缩</a></li></ul><h2 id="小康博客">小康博客</h2><ul><li><a href="https://www.antmoe.com/posts/7198453/">主题背景更换</a></li></ul><hr>]]></content>
+        <content type="html"><![CDATA[<h2 id="官方文档">官方文档</h2><ul><li><a href="https://butterfly.js.org/">Butterfly官方文档</a></li></ul><h2 id="卷二兔">卷二兔</h2><ul><li><a href="https://blog.juanertu.com/archives/54c51cfa.html">图片自适应 webp 及全站 CDN 加速</a></li><li><a href="https://blog.juanertu.com/archives/e358bc47.html">更换博客背景图片及图片压缩</a></li></ul><hr>]]></content>
       
       
       <categories>
@@ -77,7 +77,7 @@
       
         <tags>
             
-            <tag> Butterfly </tag>
+            <tag> Butterfly主题 </tag>
             
         </tags>
       
@@ -86,16 +86,16 @@
     
     
     <entry>
-      <title>背包</title>
-      <link href="/2021/08/05/%E9%A2%98%E7%9B%AE/DP/%E8%83%8C%E5%8C%85/"/>
-      <url>/2021/08/05/%E9%A2%98%E7%9B%AE/DP/%E8%83%8C%E5%8C%85/</url>
+      <title>背包讲解</title>
+      <link href="/2021/08/06/DS_Algorithm/DP/%E8%83%8C%E5%8C%85/"/>
+      <url>/2021/08/06/DS_Algorithm/DP/%E8%83%8C%E5%8C%85/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://www.luogu.com.cn/problem/P1679"><strong>洛谷 P1679</strong>     神奇的四次方数</a></p><hr>]]></content>
+        <content type="html"><![CDATA[<h2 id="01背包">01背包</h2><ul><li><a href="https://www.acwing.com/solution/content/52491/"><strong>AcWing 423. 采药【01背包DP模型+朴素优化】</strong></a></li></ul><hr>]]></content>
       
       
       <categories>
           
-          <category> 题目 </category>
+          <category> DS_Algorithm </category>
           
           <category> DP </category>
           
@@ -113,11 +113,38 @@
     
     
     <entry>
-      <title>基础算法</title>
+      <title>贪心</title>
+      <link href="/2021/08/06/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E8%B4%AA%E5%BF%83/"/>
+      <url>/2021/08/06/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E8%B4%AA%E5%BF%83/</url>
+      
+        <content type="html"><![CDATA[<h2 id="什么时候不能用贪心">什么时候不能用贪心</h2><ul><li></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题目 </category>
+          
+          <category> 基础算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 贪心 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>二分</title>
       <link href="/2021/08/05/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86/"/>
       <url>/2021/08/05/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://www.acwing.com/problem/content/792/">AcWing_P790  浮点数二分</a></p><hr>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://www.acwing.com/problem/content/792/"><strong>AcWing_P790  浮点数二分</strong></a></p><hr>]]></content>
       
       
       <categories>
@@ -132,6 +159,33 @@
         <tags>
             
             <tag> 二分 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>背包题目</title>
+      <link href="/2021/08/05/%E9%A2%98%E7%9B%AE/DP/%E8%83%8C%E5%8C%85/"/>
+      <url>/2021/08/05/%E9%A2%98%E7%9B%AE/DP/%E8%83%8C%E5%8C%85/</url>
+      
+        <content type="html"><![CDATA[<h2 id="求方案数">求方案数</h2><h3 id="物品选择顺序不影响方案数">物品选择顺序不影响方案数</h3><ul><li><p>求方案数</p><ol><li><p><a href="https://www.acwing.com/problem/content/280/"><strong>AcWing 278. 数字组合</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/1025/"><strong>AcWing 1023. 买书</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/1023/"><strong>AcWing 1021. 货币系统</strong></a></p></li></ol></li><li><p>求<strong>最小</strong>方案数</p><ol><li><a href="https://www.luogu.com.cn/problem/P1679"><strong>洛谷 P1679. 神奇的四次方数</strong></a></li></ol></li><li><p>求<strong>最优</strong>方案数</p><ol><li><a href="https://www.acwing.com/problem/content/11/"><strong>AcWing 11. 背包问题求方案数</strong></a></li></ol></li></ul><h3 id="物品选择顺序影响方案数">物品选择顺序影响方案数</h3><ul><li><a href="https://www.acwing.com/problem/content/description/3646/"><strong>AcWing 3643. 上楼梯</strong></a></li></ul><h2 id="求具体方案">求具体方案</h2><ul><li>要求字典序最小<ol><li><a href="https://www.acwing.com/problem/content/12/"><strong>AcWing 12. 背包问题求具体方案</strong></a></li></ol></li><li>求任意一个方案<br>1.</li></ul><h2 id="至多、恰好、至少-问题">至多、恰好、至少 问题</h2><ul><li><p>至多</p><ol><li><a href="https://www.acwing.com/problem/content/425/"><strong>AcWing 423. 采药</strong></a></li><li><a href="https://www.acwing.com/problem/content/1021/"><strong>AcWing 1019. 庆功会</strong></a></li></ol></li><li><p>至少</p><ol><li><a href="https://www.acwing.com/problem/content/1022/"><strong>AcWing 1020. 潜水员</strong></a></li></ol></li><li><p>恰好</p></li></ul><h2 id="多维费用背包问题">多维费用背包问题</h2><ol><li><p><a href="https://www.acwing.com/problem/content/8/"><strong>AcWing 8. 二维费用的背包问题</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/1024/"><strong>AcWing 1022. 宠物小精灵之收服</strong></a></p></li><li><p><a href="https://www.luogu.com.cn/problem/P1509"><strong>洛谷 P1509 找啊找啊找GF</strong></a></p></li></ol><h2 id="分组背包">分组背包</h2><ol><li><p><a href="https://www.acwing.com/problem/content/1015/"><strong>AcWing 1013. 机器分配</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/489/"><strong>AcWing 487. 金明的预算方案</strong></a></p></li></ol><h2 id="背包">背包 +</h2><ol><li><a href="https://www.acwing.com/problem/content/736/"><strong>AcWing 734. 能量石</strong></a></li></ol><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题目 </category>
+          
+          <category> DP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 背包 </tag>
             
         </tags>
       
