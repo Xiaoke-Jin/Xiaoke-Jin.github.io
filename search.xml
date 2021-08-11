@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>一个开源博客项目</title>
-      <link href="/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
-      <url>/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</url>
+      <title>静态博客访问优化</title>
+      <link href="/20201/08/01/Hexo/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E4%BC%98%E5%8C%96/"/>
+      <url>/20201/08/01/Hexo/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E4%BC%98%E5%8C%96/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://sunhwee.com/posts/6e8839eb.html#toc-heading-1"><strong>Hexo+Github博客搭建完全教程</strong></a></p><hr>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://blog.sky03.cn/posts/1663.html"><strong>Sky03’ Blog: 静态博客访问优化</strong></a></p><hr>]]></content>
       
       
       <categories>
@@ -48,11 +48,11 @@
     
     
     <entry>
-      <title>静态博客访问优化</title>
-      <link href="/20201/08/01/Hexo/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E4%BC%98%E5%8C%96/"/>
-      <url>/20201/08/01/Hexo/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E4%BC%98%E5%8C%96/</url>
+      <title>一个开源博客项目</title>
+      <link href="/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+      <url>/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://blog.sky03.cn/posts/1663.html"><strong>Sky03’ Blog: 静态博客访问优化</strong></a></p><hr>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://sunhwee.com/posts/6e8839eb.html#toc-heading-1"><strong>Hexo+Github博客搭建完全教程</strong></a></p><hr>]]></content>
       
       
       <categories>
@@ -80,6 +80,33 @@
           
       </categories>
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>STL</title>
+      <link href="/2021/08/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/STL/"/>
+      <url>/2021/08/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/STL/</url>
+      
+        <content type="html"><![CDATA[<h2 id="vector">vector</h2><ol><li>下标从<code>0</code>开始</li><li>初始化<ol><li><code>vector&lt;int&gt; list1;</code></li></ol></li><li>插入</li></ol><h2 id="unorderedmap">unorderedmap</h2><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+          <category> STL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> STL </tag>
+            
+        </tags>
       
     </entry>
     
@@ -161,6 +188,60 @@
     
     
     <entry>
+      <title>二分</title>
+      <link href="/2021/08/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86/"/>
+      <url>/2021/08/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="二分本质">二分本质</h2><ol><li><p>==二段性==</p><ul><li>只要能确定目标一定在<code>mid</code>左边或右边。</li></ul></li><li><p>边界问题</p><ul><li>小于所有元素，大于所有元素</li></ul></li></ol><h2 id="整数二分">整数二分</h2><ol><li><pre><code class="language-cpp">while(l &lt; r)<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">##  实数二分</span><br><span class="line"></span><br><span class="line">* ==精度问题==：如果要求保留到`n`位，则</span><br><span class="line"></span><br><span class="line">```cpp</span><br><span class="line">while(r - l &gt; 1e-(n + 2))</span><br></pre></td></tr></table></figure></code></pre></li></ol><p>​         即可</p><ul><li></li></ul><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+          <category> 二分 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 二分 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前缀和与差分</title>
+      <link href="/2021/08/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E5%89%8D%E7%BC%80%E5%92%8C%E4%B8%8E%E5%B7%AE%E5%88%86/"/>
+      <url>/2021/08/10/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E5%89%8D%E7%BC%80%E5%92%8C%E4%B8%8E%E5%B7%AE%E5%88%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前缀和">前缀和</h2><ul><li>求前<code>n</code>个数的和</li></ul><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">a[i] = a[i - <span class="number">1</span>] + a[i]</span><br></pre></td></tr></table></figure><ul><li>求某区间 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>l</mi><mo separator="true">,</mo><mi>r</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">[l, r]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mclose">]</span></span></span></span> 的和</li></ul><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">x = a[r] - a[l - <span class="number">1</span>]</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+          <category> 前缀和与差分 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前缀和与差分 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>RMQ</title>
       <link href="/2021/08/10/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/RMQ/"/>
       <url>/2021/08/10/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/RMQ/</url>
@@ -192,7 +273,7 @@
       <link href="/2021/08/10/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/"/>
       <url>/2021/08/10/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/</url>
       
-        <content type="html"><![CDATA[<h2 id="快速排序">快速排序</h2><h2 id="归并排序">归并排序</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="排序">排序</h2><ol><li><a href="https://www.acwing.com/problem/content/107/"><strong>AcWing 105. 七夕祭</strong></a></li><li><a href="https://www.acwing.com/problem/content/108/"><strong>AcWing 106. 动态中位数</strong></a><ul><li>求中位数</li><li>对顶堆    ==对顶思想==</li></ul></li></ol>]]></content>
       
       
       <categories>
@@ -215,11 +296,32 @@
     
     
     <entry>
+      <title>感想</title>
+      <link href="/2021/08/09/%E9%A2%98%E7%9B%AE/%E6%84%9F%E6%83%B3/"/>
+      <url>/2021/08/09/%E9%A2%98%E7%9B%AE/%E6%84%9F%E6%83%B3/</url>
+      
+        <content type="html"><![CDATA[<h4 id="2021-08-10-22-41">2021/08/10/22:41</h4><ul><li>拜服于大佬的精妙思想</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题目 </category>
+          
+          <category> 感想 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>软技能</title>
       <link href="/2021/08/09/%E9%A2%98%E7%9B%AE/%E8%BD%AF%E6%8A%80%E8%83%BD/"/>
       <url>/2021/08/09/%E9%A2%98%E7%9B%AE/%E8%BD%AF%E6%8A%80%E8%83%BD/</url>
       
-        <content type="html"><![CDATA[<h2 id="注意高精度的坑">注意高精度的坑</h2><ul><li>求方案数</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="注意高精度的坑">注意高精度的坑</h2><ol><li>求方案数</li></ol><h2 id="数组下标需要从1开始">数组下标需要从<code>1</code>开始</h2><ol><li>数组模拟堆</li><li>背包DP</li><li>前缀和与差分</li></ol><h2 id="l-r-2-与-l-r-1-2"><code>(l + r) / 2</code> 与 <code>(l + r + 1) / 2</code></h2><ol><li>二分</li></ol>]]></content>
       
       
       <categories>
@@ -381,7 +483,7 @@
       <link href="/2021/08/05/%E9%A2%98%E7%9B%AE/DP/%E8%83%8C%E5%8C%85/"/>
       <url>/2021/08/05/%E9%A2%98%E7%9B%AE/DP/%E8%83%8C%E5%8C%85/</url>
       
-        <content type="html"><![CDATA[<h2 id="求方案数">求方案数</h2><h3 id="物品选择顺序不影响方案数">物品选择顺序不影响方案数</h3><ul><li><p>求方案数</p><ol><li><p><a href="https://www.acwing.com/problem/content/280/"><strong>AcWing 278. 数字组合</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/1025/"><strong>AcWing 1023. 买书</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/1023/"><strong>AcWing 1021. 货币系统</strong></a></p></li></ol></li><li><p>求<strong>最小</strong>方案数</p><ol><li><a href="https://www.luogu.com.cn/problem/P1679"><strong>洛谷 P1679. 神奇的四次方数</strong></a></li></ol></li><li><p>求<strong>最优</strong>方案数</p><ol><li><a href="https://www.acwing.com/problem/content/11/"><strong>AcWing 11. 背包问题求方案数</strong></a></li></ol></li></ul><h3 id="物品选择顺序影响方案数">物品选择顺序影响方案数</h3><ul><li><a href="https://www.acwing.com/problem/content/description/3646/"><strong>AcWing 3643. 上楼梯</strong></a></li></ul><h2 id="求具体方案">求具体方案</h2><ul><li>要求字典序最小<ol><li><a href="https://www.acwing.com/problem/content/12/"><strong>AcWing 12. 背包问题求具体方案</strong></a></li></ol></li><li>求任意一个方案<br>1.</li></ul><h2 id="至多、恰好、至少-问题">至多、恰好、至少 问题</h2><ul><li><p>至多</p><ol><li><a href="https://www.acwing.com/problem/content/425/"><strong>AcWing 423. 采药</strong></a></li><li><a href="https://www.acwing.com/problem/content/1021/"><strong>AcWing 1019. 庆功会</strong></a></li></ol></li><li><p>至少</p><ol><li><a href="https://www.acwing.com/problem/content/1022/"><strong>AcWing 1020. 潜水员</strong></a></li></ol></li><li><p>恰好</p></li></ul><h2 id="多维费用背包问题">多维费用背包问题</h2><ol><li><p><a href="https://www.acwing.com/problem/content/8/"><strong>AcWing 8. 二维费用的背包问题</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/1024/"><strong>AcWing 1022. 宠物小精灵之收服</strong></a></p></li><li><p><a href="https://www.luogu.com.cn/problem/P1509"><strong>洛谷 P1509 找啊找啊找GF</strong></a></p></li></ol><h2 id="分组背包">分组背包</h2><ol><li><p><a href="https://www.acwing.com/problem/content/1015/"><strong>AcWing 1013. 机器分配</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/489/"><strong>AcWing 487. 金明的预算方案</strong></a></p></li></ol><h2 id="背包">背包 +</h2><ol><li><a href="https://www.acwing.com/problem/content/736/"><strong>AcWing 734. 能量石</strong></a></li></ol><hr>]]></content>
+        <content type="html"><![CDATA[<h2 id="求方案数">求方案数</h2><h3 id="物品选择顺序不影响方案数">物品选择顺序不影响方案数</h3><ul><li><p>求方案数</p><ol><li><p><a href="https://www.acwing.com/problem/content/280/"><strong>AcWing 278. 数字组合</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/1025/"><strong>AcWing 1023. 买书</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/1023/"><strong>AcWing 1021. 货币系统</strong></a></p></li></ol></li><li><p>求<strong>最小</strong>方案数</p><ol><li><a href="https://www.luogu.com.cn/problem/P1679"><strong>洛谷 P1679. 神奇的四次方数</strong></a></li></ol></li><li><p>求<strong>最优</strong>方案数</p><ol><li><a href="https://www.acwing.com/problem/content/11/"><strong>AcWing 11. 背包问题求方案数</strong></a></li></ol></li></ul><h3 id="物品选择顺序影响方案数">物品选择顺序影响方案数</h3><ul><li><a href="https://www.acwing.com/problem/content/description/3646/"><strong>AcWing 3643. 上楼梯</strong></a></li></ul><h2 id="求具体方案">求具体方案</h2><ul><li>要求字典序最小<ol><li><a href="https://www.acwing.com/problem/content/12/"><strong>AcWing 12. 背包问题求具体方案</strong></a></li></ol></li><li>求任意一个方案<br>1.</li></ul><h2 id="至多、恰好、至少-问题">至多、恰好、至少 问题</h2><ul><li><p>至多</p><ol><li><a href="https://www.acwing.com/problem/content/425/"><strong>AcWing 423. 采药</strong></a></li><li><a href="https://www.acwing.com/problem/content/1021/"><strong>AcWing 1019. 庆功会</strong></a></li></ol></li><li><p>至少</p><ol><li><a href="https://www.acwing.com/problem/content/1022/"><strong>AcWing 1020. 潜水员</strong></a></li></ol></li><li><p>恰好</p></li></ul><h2 id="多维费用背包问题">多维费用背包问题</h2><ol><li><a href="https://www.acwing.com/problem/content/8/"><strong>AcWing 8. 二维费用的背包问题</strong></a></li><li><a href="https://www.acwing.com/problem/content/1024/"><strong>AcWing 1022. 宠物小精灵之收服</strong></a><ul><li>墨染空的优化   <a href="https://www.acwing.com/solution/content/4640/"><strong>链接</strong></a></li></ul></li><li><a href="https://www.luogu.com.cn/problem/P1509"><strong>洛谷 P1509 找啊找啊找GF</strong></a></li></ol><h2 id="分组背包">分组背包</h2><ol><li><p><a href="https://www.acwing.com/problem/content/1015/"><strong>AcWing 1013. 机器分配</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/489/"><strong>AcWing 487. 金明的预算方案</strong></a></p></li></ol><h2 id="背包">背包 +</h2><ol><li><a href="https://www.acwing.com/problem/content/736/"><strong>AcWing 734. 能量石</strong></a></li></ol><hr>]]></content>
       
       
       <categories>
@@ -408,7 +510,7 @@
       <link href="/2021/08/05/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86/"/>
       <url>/2021/08/05/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86/</url>
       
-        <content type="html"><![CDATA[<h2 id="浮点数二分">浮点数二分</h2><ul><li><a href="https://www.acwing.com/problem/content/792/"><strong>AcWing_P790  浮点数二分</strong></a></li></ul><hr>]]></content>
+        <content type="html"><![CDATA[<h2 id="二分">二分</h2><ol><li><p><a href="https://www.acwing.com/problem/content/792/"><strong>AcWing_P790  浮点数二分</strong></a></p></li><li><p><a href="https://www.acwing.com/problem/content/104/"><strong>AcWing 102. 最佳牛围栏</strong></a></p><ul><li>平均值最大的问题，一般都可以转化为二分。</li></ul></li><li><p><a href="https://www.acwing.com/problem/content/description/115/"><strong>AcWing 113. 特殊排序</strong></a></p><ul><li>本题的解答过程事实上证明了：任意有向完全图（又称竞赛图）都存在<code>Hamilton</code>路径。</li></ul></li></ol><hr>]]></content>
       
       
       <categories>
