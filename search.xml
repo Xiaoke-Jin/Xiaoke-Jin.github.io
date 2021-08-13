@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>静态博客访问优化</title>
-      <link href="/20201/08/01/Hexo/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E4%BC%98%E5%8C%96/"/>
-      <url>/20201/08/01/Hexo/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E4%BC%98%E5%8C%96/</url>
+      <title>一个开源博客项目</title>
+      <link href="/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+      <url>/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://blog.sky03.cn/posts/1663.html"><strong>Sky03’ Blog: 静态博客访问优化</strong></a></p><hr>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://sunhwee.com/posts/6e8839eb.html#toc-heading-1"><strong>Hexo+Github博客搭建完全教程</strong></a></p><hr>]]></content>
       
       
       <categories>
@@ -48,11 +48,11 @@
     
     
     <entry>
-      <title>一个开源博客项目</title>
-      <link href="/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
-      <url>/20201/08/01/Hexo/%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</url>
+      <title>静态博客访问优化</title>
+      <link href="/20201/08/01/Hexo/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E4%BC%98%E5%8C%96/"/>
+      <url>/20201/08/01/Hexo/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E4%BC%98%E5%8C%96/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://sunhwee.com/posts/6e8839eb.html#toc-heading-1"><strong>Hexo+Github博客搭建完全教程</strong></a></p><hr>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://blog.sky03.cn/posts/1663.html"><strong>Sky03’ Blog: 静态博客访问优化</strong></a></p><hr>]]></content>
       
       
       <categories>
@@ -86,9 +86,36 @@
     
     
     <entry>
+      <title>搜索讲解</title>
+      <link href="/2021/08/13/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%90%9C%E7%B4%A2/BFS&amp;DFS/"/>
+      <url>/2021/08/13/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%90%9C%E7%B4%A2/BFS&amp;DFS/</url>
+      
+        <content type="html"><![CDATA[<h2 id="四联通与八联通">四联通与八联通</h2><ol><li>「四联通」</li></ol><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> dx[<span class="number">5</span>] = &#123;<span class="number">-1</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>&#125;, dy[<span class="number">5</span>] = &#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>&#125;;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">4</span>; i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; <span class="number">4</span>; j++)&#123;</span><br><span class="line">        <span class="keyword">int</span> nx = x + dx[i], ny = y + dy[j];</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><ol start="2"><li>「八连通」</li></ol><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1</span></span><br><span class="line"><span class="keyword">int</span> dx[<span class="number">10</span>] = &#123;<span class="number">-1</span>, <span class="number">-1</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>&#125;, dy[<span class="number">10</span>] = &#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">-1</span>&#125;;</span><br><span class="line"><span class="comment">// 2</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = x - <span class="number">1</span>; i &lt;= x + <span class="number">1</span>; i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j = y - <span class="number">1</span>; j &lt;= y + <span class="number">1</span>; j++)&#123;</span><br><span class="line">        <span class="keyword">if</span>(i == x &amp;&amp; j == y)<span class="keyword">continue</span>;  <span class="comment">// 遍历到自己，跳过</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+          <category> 搜索 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 搜索 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>高精度板子</title>
-      <link href="/2021/08/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/"/>
-      <url>/2021/08/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%97/</url>
+      <link href="/2021/08/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E9%AB%98%E7%B2%BE%E5%BA%A6%E6%9D%BF%E5%AD%90/"/>
+      <url>/2021/08/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E9%AB%98%E7%B2%BE%E5%BA%A6%E6%9D%BF%E5%AD%90/</url>
       
         <content type="html"><![CDATA[<h2 id="加">加</h2><p>​</p><h2 id="减">减</h2><p>​</p><h2 id="乘">乘</h2><p>​</p><h2 id="除">除</h2><p>​</p><hr>]]></content>
       
@@ -105,33 +132,6 @@
         <tags>
             
             <tag> 高精度 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>并查集题目</title>
-      <link href="/2021/08/12/%E9%A2%98%E7%9B%AE/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
-      <url>/2021/08/12/%E9%A2%98%E7%9B%AE/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/</url>
-      
-        <content type="html"><![CDATA[<h2 id="基础操作：查询，合并">基础操作：查询，合并</h2><ol><li><a href="https://www.acwing.com/problem/content/838/"><strong>AcWing 836. 合并集合</strong></a></li></ol><h2 id="并查集扩展版">并查集扩展版</h2><h3 id="维护集合中元素数量的并查集">维护集合中元素数量的并查集</h3><ol><li><a href="https://www.acwing.com/problem/content/839/"><strong>AcWing 837. 连通块中点的数量</strong></a></li></ol><h2 id="进阶题目">进阶题目</h2><ol><li><p><a href="https://www.acwing.com/problem/content/description/242/"><strong>AcWing 240. 食物链</strong></a></p><ul><li>普通做法：扩展域</li><li>带权并查集的做法：<a href="https://www.acwing.com/solution/content/1357/">AcWing 240. 食物链(带权并查集)</a></li></ul></li></ol><h2 id="Kruskal">Kruskal</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 题目 </category>
-          
-          <category> 数据结构 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 并查集 </tag>
             
         </tags>
       
@@ -167,6 +167,33 @@
     
     
     <entry>
+      <title>并查集题目</title>
+      <link href="/2021/08/12/%E9%A2%98%E7%9B%AE/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+      <url>/2021/08/12/%E9%A2%98%E7%9B%AE/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%B9%B6%E6%9F%A5%E9%9B%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基础操作：查询，合并">基础操作：查询，合并</h2><ol><li><a href="https://www.acwing.com/problem/content/838/"><strong>AcWing 836. 合并集合</strong></a></li></ol><h2 id="并查集扩展版">并查集扩展版</h2><h3 id="维护集合中元素数量的并查集">维护集合中元素数量的并查集</h3><ol><li><a href="https://www.acwing.com/problem/content/839/"><strong>AcWing 837. 连通块中点的数量</strong></a></li></ol><h2 id="进阶题目">进阶题目</h2><ol><li><p><a href="https://www.acwing.com/problem/content/description/242/"><strong>AcWing 240. 食物链</strong></a></p><ul><li>普通做法：扩展域</li><li>带权并查集的做法：<a href="https://www.acwing.com/solution/content/1357/">AcWing 240. 食物链(带权并查集)</a></li></ul></li></ol><h2 id="Kruskal">Kruskal</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题目 </category>
+          
+          <category> 数据结构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 并查集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>STL</title>
       <link href="/2021/08/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/STL/"/>
       <url>/2021/08/11/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/STL/</url>
@@ -178,7 +205,7 @@
           
           <category> 数据结构与算法 </category>
           
-          <category> STL </category>
+          <category> 基础算法 </category>
           
       </categories>
       
@@ -186,31 +213,6 @@
         <tags>
             
             <tag> STL </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>洛谷名字颜色</title>
-      <link href="/2021/08/10/%E6%9D%82%E6%96%87/%E6%B4%9B%E8%B0%B7%E5%90%8D%E5%AD%97%E9%A2%9C%E8%89%B2/"/>
-      <url>/2021/08/10/%E6%9D%82%E6%96%87/%E6%B4%9B%E8%B0%B7%E5%90%8D%E5%AD%97%E9%A2%9C%E8%89%B2/</url>
-      
-        <content type="html"><![CDATA[<h2 id="名字颜色规则">名字颜色规则</h2><ul><li><p>动态等级是根据用户在一段时间内的刷题、社区活跃、打卡、题解、违规情况，按照一定算法得出的结果，该算法不公开。动态等级比较准确的表现了用户一段时间内在洛谷的综合行为。</p></li><li><p>动态等级由 <code>-1</code> 到 <code>4</code>，</p><ul><li>管理员的用户名颜色为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="purple"><mtext>紫色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{purple}{紫色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:purple;"><span class="mord cjk_fallback" style="color:purple;">紫色</span></span></span></span></span>，不受动态等级影响。</li><li>用户名的颜色为分别对应为棕色、灰色、蓝色、绿色、橙色、红色。</li><li><code>-1</code>   <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="brown"><mtext>棕色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{brown}{棕色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:brown;"><span class="mord cjk_fallback" style="color:brown;">棕色</span></span></span></span></span>  作弊者</li><li><code>0</code>    <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="Grey"><mtext>灰色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{Grey}{灰色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:Grey;"><span class="mord cjk_fallback" style="color:Grey;">灰色</span></span></span></span></span>  见习用户     即咕值<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">&lt;100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">100</span></span></span></span>的用户</li><li><code>1</code>    <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="blue"><mtext>蓝色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{blue}{蓝色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:blue;"><span class="mord cjk_fallback" style="color:blue;">蓝色</span></span></span></span></span>  普通用户     即咕值在<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mn>100</mn><mo separator="true">,</mo><mn>119</mn><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">[100,119]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">100</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">119</span><span class="mclose">]</span></span></span></span>的用户</li><li><code>2</code>    <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>绿色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{绿色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord cjk_fallback" style="color:green;">绿色</span></span></span></span></span>  算法爱好者 即咕值在<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mn>120</mn><mo separator="true">,</mo><mn>169</mn><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">[120,169]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">120</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">169</span><span class="mclose">]</span></span></span></span>的用户</li><li><code>3</code>    <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="orange"><mtext>橙色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{orange}{橙色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:orange;"><span class="mord cjk_fallback" style="color:orange;">橙色</span></span></span></span></span>  刷题健将     即咕值在<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mn>170</mn><mo separator="true">,</mo><mn>229</mn><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">[170,229]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">170</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">229</span><span class="mclose">]</span></span></span></span>的用户</li><li><code>4</code>    <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="RED"><mtext>红色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{RED}{红色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:RED;"><span class="mord cjk_fallback" style="color:RED;">红色</span></span></span></span></span>  虐题狂魔     即咕值<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&gt;</mo><mn>229</mn></mrow><annotation encoding="application/x-tex">&gt;229</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">229</span></span></span></span>的用户</li></ul></li><li><p>新用户的初始动态等级为 <code>0</code>，也就是 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="Grey"><mtext>灰色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{Grey}{灰色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:Grey;"><span class="mord cjk_fallback" style="color:Grey;">灰色</span></span></span></span></span> 用户名。用户在洛谷中按照洛谷社区规则使用各项功能，会增加动态等级。如果长时间不使用洛谷或者有违规行为，可能会降级。除非用户有严重违规行为或者在长时间不使用洛谷且未进行实名认证的情况下，一旦用户达到蓝名，则不会掉到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="Grey"><mtext>灰色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{Grey}{灰色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:Grey;"><span class="mord cjk_fallback" style="color:Grey;">灰色</span></span></span></span></span> 。你可以在打卡之后在打卡结果中看到自己用户名的颜色。在犇犇或者讨论中询问颜色名字和咕值相关的一些问题将被和谐。</p></li><li><p>如果用户抄袭题解或非恶意比赛作弊，将降级至棕名及名字旁带有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="brown"><mrow><mi>C</mi><mi>h</mi><mi>e</mi><mi>a</mi><mi>t</mi><mi>e</mi><mi>r</mi></mrow></mstyle></mrow><annotation encoding="application/x-tex">\color{brown}{Cheater}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord" style="color:brown;"><span class="mord mathnormal" style="margin-right:0.07153em;color:brown;">C</span><span class="mord mathnormal" style="color:brown;">h</span><span class="mord mathnormal" style="color:brown;">e</span><span class="mord mathnormal" style="color:brown;">a</span><span class="mord mathnormal" style="color:brown;">t</span><span class="mord mathnormal" style="margin-right:0.02778em;color:brown;">er</span></span></span></span></span> 标签，每次查到持续 15 日，并且在 90 日内不得在任何比赛获得排名。15 日后，变成灰名并清空所有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>C</mi></mrow><annotation encoding="application/x-tex">AC</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span> 记录。（即，变为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mi>n</mi><mi>a</mi><mi>c</mi><mi>c</mi><mi>e</mi><mi>p</mi><mi>t</mi><mi>e</mi><mi>d</mi><mtext>   </mtext><mn>100</mn></mrow><annotation encoding="application/x-tex">Unaccepted\ \ \ 100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span><span class="mord mathnormal">na</span><span class="mord mathnormal">cce</span><span class="mord mathnormal">pt</span><span class="mord mathnormal">e</span><span class="mord mathnormal">d</span><span class="mspace"> </span><span class="mspace"> </span><span class="mspace"> </span><span class="mord">100</span></span></span></span> 分状态）。（注：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="brown"><mtext>棕名</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{brown}{棕名}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:brown;"><span class="mord cjk_fallback" style="color:brown;">棕名</span></span></span></span></span>用户是仅次于封号的最严厉警告，如果发生任何违反洛谷社区规则的事情，直接立刻封禁一年。）</p></li><li><p>动态等级影响洛谷内很多权限，例如创建比赛、团队、提交冷却时间、图床、下载数据等。灰名会有较多的限制。</p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 杂文 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 洛谷 </tag>
             
         </tags>
       
@@ -236,6 +238,31 @@
         <tags>
             
             <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>LaTeX</title>
+      <link href="/2021/08/10/%E8%AF%AD%E8%A8%80/LaTeX/"/>
+      <url>/2021/08/10/%E8%AF%AD%E8%A8%80/LaTeX/</url>
+      
+        <content type="html"><![CDATA[<h2 id="LaTeX入门">LaTeX入门</h2><ul><li><a href="https://www.luogu.com.cn/blog/IowaBattleship/latex-ru-men"><strong>LaTeX入门</strong></a></li></ul><h2 id="LaTeX语法">LaTeX语法</h2><ul><li><a href="https://www.luogu.com.cn/blog/IowaBattleship/latex-gong-shi-tai-quan"><strong>LaTeX数学公式大全</strong></a></li></ul><h2 id="KaTeX">KaTeX</h2><ul><li><a href="https://katex.org/docs/supported.html"><strong>KaTeX源码</strong></a></li></ul><h2 id="其他网站">其他网站</h2><ul><li><a href="https://www.latexlive.com/"><strong>在线LaTeX编辑器</strong></a></li></ul><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LaTeX </tag>
             
         </tags>
       
@@ -271,23 +298,23 @@
     
     
     <entry>
-      <title>LaTeX</title>
-      <link href="/2021/08/10/%E8%AF%AD%E8%A8%80/LaTeX/"/>
-      <url>/2021/08/10/%E8%AF%AD%E8%A8%80/LaTeX/</url>
+      <title>洛谷名字颜色</title>
+      <link href="/2021/08/10/%E6%9D%82%E6%96%87/%E6%B4%9B%E8%B0%B7%E5%90%8D%E5%AD%97%E9%A2%9C%E8%89%B2/"/>
+      <url>/2021/08/10/%E6%9D%82%E6%96%87/%E6%B4%9B%E8%B0%B7%E5%90%8D%E5%AD%97%E9%A2%9C%E8%89%B2/</url>
       
-        <content type="html"><![CDATA[<h2 id="LaTeX入门">LaTeX入门</h2><ul><li><a href="https://www.luogu.com.cn/blog/IowaBattleship/latex-ru-men"><strong>LaTeX入门</strong></a></li></ul><h2 id="LaTeX语法">LaTeX语法</h2><ul><li><a href="https://www.luogu.com.cn/blog/IowaBattleship/latex-gong-shi-tai-quan"><strong>LaTeX数学公式大全</strong></a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="名字颜色规则">名字颜色规则</h2><ul><li><p>动态等级是根据用户在一段时间内的刷题、社区活跃、打卡、题解、违规情况，按照一定算法得出的结果，该算法不公开。动态等级比较准确的表现了用户一段时间内在洛谷的综合行为。</p></li><li><p>动态等级由 <code>-1</code> 到 <code>4</code>，</p><ul><li>管理员的用户名颜色为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="purple"><mtext>紫色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{purple}{紫色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:purple;"><span class="mord cjk_fallback" style="color:purple;">紫色</span></span></span></span></span>，不受动态等级影响。</li><li>用户名的颜色为分别对应为棕色、灰色、蓝色、绿色、橙色、红色。</li><li><code>-1</code>   <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="brown"><mtext>棕色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{brown}{棕色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:brown;"><span class="mord cjk_fallback" style="color:brown;">棕色</span></span></span></span></span>  作弊者</li><li><code>0</code>     <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="Grey"><mtext>灰色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{Grey}{灰色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:Grey;"><span class="mord cjk_fallback" style="color:Grey;">灰色</span></span></span></span></span>  见习用户     即咕值<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">&lt;100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">100</span></span></span></span>的用户</li><li><code>1</code>     <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="blue"><mtext>蓝色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{blue}{蓝色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:blue;"><span class="mord cjk_fallback" style="color:blue;">蓝色</span></span></span></span></span>  普通用户     即咕值在<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mn>100</mn><mo separator="true">,</mo><mn>119</mn><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">[100,119]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">100</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">119</span><span class="mclose">]</span></span></span></span>的用户</li><li><code>2</code>     <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>绿色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{绿色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord cjk_fallback" style="color:green;">绿色</span></span></span></span></span>  算法爱好者 即咕值在<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mn>120</mn><mo separator="true">,</mo><mn>169</mn><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">[120,169]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">120</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">169</span><span class="mclose">]</span></span></span></span>的用户</li><li><code>3</code>     <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="orange"><mtext>橙色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{orange}{橙色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:orange;"><span class="mord cjk_fallback" style="color:orange;">橙色</span></span></span></span></span>  刷题健将     即咕值在<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mn>170</mn><mo separator="true">,</mo><mn>229</mn><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">[170,229]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">170</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">229</span><span class="mclose">]</span></span></span></span>的用户</li><li><code>4</code>     <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="RED"><mtext>红色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{RED}{红色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:RED;"><span class="mord cjk_fallback" style="color:RED;">红色</span></span></span></span></span>  虐题狂魔     即咕值<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&gt;</mo><mn>229</mn></mrow><annotation encoding="application/x-tex">&gt;229</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">229</span></span></span></span>的用户</li></ul></li><li><p>新用户的初始动态等级为 <code>0</code>，也就是 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="Grey"><mtext>灰色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{Grey}{灰色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:Grey;"><span class="mord cjk_fallback" style="color:Grey;">灰色</span></span></span></span></span> 用户名。用户在洛谷中按照洛谷社区规则使用各项功能，会增加动态等级。如果长时间不使用洛谷或者有违规行为，可能会降级。除非用户有严重违规行为或者在长时间不使用洛谷且未进行实名认证的情况下，一旦用户达到蓝名，则不会掉到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="Grey"><mtext>灰色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{Grey}{灰色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:Grey;"><span class="mord cjk_fallback" style="color:Grey;">灰色</span></span></span></span></span> 。你可以在打卡之后在打卡结果中看到自己用户名的颜色。在犇犇或者讨论中询问颜色名字和咕值相关的一些问题将被和谐。</p></li><li><p>如果用户抄袭题解或非恶意比赛作弊，将降级至棕名及名字旁带有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="brown"><mrow><mi>C</mi><mi>h</mi><mi>e</mi><mi>a</mi><mi>t</mi><mi>e</mi><mi>r</mi></mrow></mstyle></mrow><annotation encoding="application/x-tex">\color{brown}{Cheater}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord" style="color:brown;"><span class="mord mathnormal" style="margin-right:0.07153em;color:brown;">C</span><span class="mord mathnormal" style="color:brown;">h</span><span class="mord mathnormal" style="color:brown;">e</span><span class="mord mathnormal" style="color:brown;">a</span><span class="mord mathnormal" style="color:brown;">t</span><span class="mord mathnormal" style="margin-right:0.02778em;color:brown;">er</span></span></span></span></span> 标签，每次查到持续 15 日，并且在 90 日内不得在任何比赛获得排名。15 日后，变成 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="Grey"><mtext>灰色</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{Grey}{灰色}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:Grey;"><span class="mord cjk_fallback" style="color:Grey;">灰色</span></span></span></span></span> 并清空所有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>C</mi></mrow><annotation encoding="application/x-tex">AC</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span> 记录。（即，变为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mi>n</mi><mi>a</mi><mi>c</mi><mi>c</mi><mi>e</mi><mi>p</mi><mi>t</mi><mi>e</mi><mi>d</mi><mtext>   </mtext><mn>100</mn></mrow><annotation encoding="application/x-tex">Unaccepted\ \ \ 100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span><span class="mord mathnormal">na</span><span class="mord mathnormal">cce</span><span class="mord mathnormal">pt</span><span class="mord mathnormal">e</span><span class="mord mathnormal">d</span><span class="mspace"> </span><span class="mspace"> </span><span class="mspace"> </span><span class="mord">100</span></span></span></span> 分状态）。（注：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="brown"><mtext>棕名</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{brown}{棕名}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:brown;"><span class="mord cjk_fallback" style="color:brown;">棕名</span></span></span></span></span>用户是仅次于封号的最严厉警告，如果发生任何违反洛谷社区规则的事情，直接立刻封禁一年。）</p></li><li><p>动态等级影响洛谷内很多权限，例如创建比赛、团队、提交冷却时间、图床、下载数据等。<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="Grey"><mtext>灰名</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{Grey}{灰名}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:Grey;"><span class="mord cjk_fallback" style="color:Grey;">灰名</span></span></span></span></span> 会有较多的限制。</p></li></ul>]]></content>
       
       
       <categories>
           
-          <category> 语言 </category>
+          <category> 杂文 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> LaTeX </tag>
+            <tag> 洛谷 </tag>
             
         </tags>
       
@@ -307,7 +334,7 @@
           
           <category> 数据结构与算法 </category>
           
-          <category> 二分 </category>
+          <category> 基础算法 </category>
           
       </categories>
       
@@ -334,7 +361,7 @@
           
           <category> 数据结构与算法 </category>
           
-          <category> 前缀和与差分 </category>
+          <category> 基础算法 </category>
           
       </categories>
       
@@ -350,7 +377,7 @@
     
     
     <entry>
-      <title>排序</title>
+      <title>排序题目</title>
       <link href="/2021/08/10/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/"/>
       <url>/2021/08/10/%E9%A2%98%E7%9B%AE/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/</url>
       
@@ -377,32 +404,11 @@
     
     
     <entry>
-      <title>感想</title>
-      <link href="/2021/08/09/%E9%A2%98%E7%9B%AE/%E6%84%9F%E6%83%B3/"/>
-      <url>/2021/08/09/%E9%A2%98%E7%9B%AE/%E6%84%9F%E6%83%B3/</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>2021/08/10/22:41</p><ul><li>拜服于大佬的精妙思想</li></ul></blockquote><p>​</p><blockquote><p>2021/08/12</p><ul><li>最难的不是数据结构与算法的学习，而是对题目进行深入分析，发掘其本质，将其转换为「易于求解的等价问题」。</li></ul></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 题目 </category>
-          
-          <category> 感想 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>软技能</title>
       <link href="/2021/08/09/%E9%A2%98%E7%9B%AE/%E8%BD%AF%E6%8A%80%E8%83%BD/"/>
       <url>/2021/08/09/%E9%A2%98%E7%9B%AE/%E8%BD%AF%E6%8A%80%E8%83%BD/</url>
       
-        <content type="html"><![CDATA[<h2 id="注意高精度的坑">注意高精度的坑</h2><ol><li>求方案数</li></ol><h2 id="数组下标需要从1开始">数组下标需要从<code>1</code>开始</h2><ol><li>数组模拟堆</li><li>背包DP</li><li>前缀和与差分</li></ol><h2 id="l-r-2-与-l-r-1-2"><code>(l + r) / 2</code> 与 <code>(l + r + 1) / 2</code></h2><ol><li>二分</li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="注意高精度、LL的坑">注意高精度、LL的坑</h2><ol><li><p>求方案数；</p></li><li><p>逆序对数量；</p></li></ol><h2 id="数组下标需要从1开始">数组下标需要从<code>1</code>开始</h2><ol start="2"><li>数组模拟堆；</li><li>背包DP；</li><li>前缀和与差分；</li></ol><h2 id="l-r-2-与-l-r-1-2"><code>(l + r) / 2</code> 与 <code>(l + r + 1) / 2</code></h2><ol><li>二分；</li></ol>]]></content>
       
       
       <categories>
@@ -419,6 +425,27 @@
             <tag> ACM软技能 </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>感想</title>
+      <link href="/2021/08/09/%E9%A2%98%E7%9B%AE/%E6%84%9F%E6%83%B3/"/>
+      <url>/2021/08/09/%E9%A2%98%E7%9B%AE/%E6%84%9F%E6%83%B3/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>2021/08/10/22:41</p><ul><li>拜服于大佬的精妙思想</li></ul></blockquote><p>​</p><blockquote><p>2021/08/12</p><ul><li>最难的不是数据结构与算法的学习，而是对题目进行深入分析，发掘其本质，将其转换为「易于求解的等价问题」。</li></ul></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题目 </category>
+          
+          <category> 感想 </category>
+          
+      </categories>
+      
       
     </entry>
     
