@@ -1221,7 +1221,7 @@ hr:before,
   }
 }
 :root {
-  --global-font-size: Microsoft YaHei;
+  --global-font-size: 14px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
