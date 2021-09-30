@@ -363,8 +363,8 @@
     
     <entry>
       <title></title>
-      <link href="/2021/09/19/DS_Algorithm%E8%AF%81%E6%98%8E%E4%B8%8E%E8%AE%B2%E8%A7%A3/%E6%90%9C%E7%B4%A2/DFS/DFS-%E8%BF%AD%E4%BB%A3%E5%8A%A0%E6%B7%B1/"/>
-      <url>/2021/09/19/DS_Algorithm%E8%AF%81%E6%98%8E%E4%B8%8E%E8%AE%B2%E8%A7%A3/%E6%90%9C%E7%B4%A2/DFS/DFS-%E8%BF%AD%E4%BB%A3%E5%8A%A0%E6%B7%B1/</url>
+      <link href="/2021/09/19/DS_Algorithm%E8%AF%81%E6%98%8E%E4%B8%8E%E8%AE%B2%E8%A7%A3/%E6%90%9C%E7%B4%A2/DFS/DFS-%E5%8F%8C%E5%90%91DFS/"/>
+      <url>/2021/09/19/DS_Algorithm%E8%AF%81%E6%98%8E%E4%B8%8E%E8%AE%B2%E8%A7%A3/%E6%90%9C%E7%B4%A2/DFS/DFS-%E5%8F%8C%E5%90%91DFS/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -376,8 +376,8 @@
     
     <entry>
       <title></title>
-      <link href="/2021/09/19/DS_Algorithm%E8%AF%81%E6%98%8E%E4%B8%8E%E8%AE%B2%E8%A7%A3/%E6%90%9C%E7%B4%A2/DFS/DFS-%E5%8F%8C%E5%90%91DFS/"/>
-      <url>/2021/09/19/DS_Algorithm%E8%AF%81%E6%98%8E%E4%B8%8E%E8%AE%B2%E8%A7%A3/%E6%90%9C%E7%B4%A2/DFS/DFS-%E5%8F%8C%E5%90%91DFS/</url>
+      <link href="/2021/09/19/DS_Algorithm%E8%AF%81%E6%98%8E%E4%B8%8E%E8%AE%B2%E8%A7%A3/%E6%90%9C%E7%B4%A2/DFS/DFS-%E8%BF%AD%E4%BB%A3%E5%8A%A0%E6%B7%B1/"/>
+      <url>/2021/09/19/DS_Algorithm%E8%AF%81%E6%98%8E%E4%B8%8E%E8%AE%B2%E8%A7%A3/%E6%90%9C%E7%B4%A2/DFS/DFS-%E8%BF%AD%E4%BB%A3%E5%8A%A0%E6%B7%B1/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -809,33 +809,6 @@
     
     
     <entry>
-      <title>第五章 归纳与递归</title>
-      <link href="/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E5%BD%92%E7%BA%B3%E4%B8%8E%E9%80%92%E5%BD%92/"/>
-      <url>/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E5%BD%92%E7%BA%B3%E4%B8%8E%E9%80%92%E5%BD%92/</url>
-      
-        <content type="html"><![CDATA[<h2 id="数学归纳法">数学归纳法</h2><h2 id="强归纳法与良序性">强归纳法与良序性</h2><h2 id="递归定义与结构归纳法">递归定义与结构归纳法</h2><h2 id="递归算法">递归算法</h2><h2 id="程序正确性">程序正确性</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 读书笔记 </category>
-          
-          <category> 离散数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 离散数学 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>第八章 高级计数技术</title>
       <link href="/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E5%85%AB%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AE%A1%E6%95%B0%E6%8A%80%E6%9C%AF/"/>
       <url>/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E5%85%AB%E7%AB%A0%20%E9%AB%98%E7%BA%A7%E8%AE%A1%E6%95%B0%E6%8A%80%E6%9C%AF/</url>
@@ -863,11 +836,11 @@
     
     
     <entry>
-      <title>第十一章 树</title>
-      <link href="/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%20%E6%A0%91/"/>
-      <url>/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%20%E6%A0%91/</url>
+      <title>第五章 归纳与递归</title>
+      <link href="/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E5%BD%92%E7%BA%B3%E4%B8%8E%E9%80%92%E5%BD%92/"/>
+      <url>/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E5%BD%92%E7%BA%B3%E4%B8%8E%E9%80%92%E5%BD%92/</url>
       
-        <content type="html"><![CDATA[<h2 id="树的概述">树的概述</h2><h2 id="树的应用">树的应用</h2><h2 id="树的遍历">树的遍历</h2><h2 id="生成树">生成树</h2><h2 id="最小生成树">最小生成树</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="数学归纳法">数学归纳法</h2><h2 id="强归纳法与良序性">强归纳法与良序性</h2><h2 id="递归定义与结构归纳法">递归定义与结构归纳法</h2><h2 id="递归算法">递归算法</h2><h2 id="程序正确性">程序正确性</h2>]]></content>
       
       
       <categories>
@@ -895,6 +868,33 @@
       <url>/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E5%85%AD%E7%AB%A0%20%E8%AE%A1%E6%95%B0/</url>
       
         <content type="html"><![CDATA[<h2 id="计数的基础">计数的基础</h2><h2 id="鸽巢原理">鸽巢原理</h2><h2 id="排列与组合">排列与组合</h2><h2 id="二项式系数和恒等式">二项式系数和恒等式</h2><h2 id="排列与组合的推广">排列与组合的推广</h2><h2 id="生成排列和组合">生成排列和组合</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 读书笔记 </category>
+          
+          <category> 离散数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 离散数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第十一章 树</title>
+      <link href="/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%20%E6%A0%91/"/>
+      <url>/2021/09/01/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%20%E6%A0%91/</url>
+      
+        <content type="html"><![CDATA[<h2 id="树的概述">树的概述</h2><h2 id="树的应用">树的应用</h2><h2 id="树的遍历">树的遍历</h2><h2 id="生成树">生成树</h2><h2 id="最小生成树">最小生成树</h2>]]></content>
       
       
       <categories>
