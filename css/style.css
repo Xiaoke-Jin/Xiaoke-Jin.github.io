@@ -1,9 +1,17 @@
 /* 网页侧边滚动条样式 */
-::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
+/* ::-webkit-scrollbar {
+    width: 15px;
+    height: 10px;
+} */
 
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+    border-radius: 10px;
+    width: 14px;
+    height: 16px;
+    background-color: #ffffff;
+}
 /* 鼠标样式 */
 body {
     cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/default.cur),
