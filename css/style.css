@@ -22,13 +22,30 @@ img {
     color: black;
 }
 
+#page-header.full_page {
+    height: 100vh;
+    background-attachment: fixed;
+}
 
+#page-header {
+    position: relative;
+    width: 100%;
+    background-color: #49b1f5;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
 #web_bg {
     position: fixed;
     z-index: -999;
     width: 100%;
     height: 100%;
-    background: url(https://cdn.jsdelivr.net/gh/constown/HexoStaticFile/img/20210127120147.jpg);
+    background: url(https://pic.imgdb.cn/item/611238455132923bf84baa81.jpg);
     background-attachment: local;
     background-position: center;
     -webkit-background-size: cover;
@@ -37,7 +54,7 @@ img {
     background-repeat: no-repeat;
 }
 
-@keyframes to_show {
+/* @keyframes to_show {
     0% {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -49,4 +66,4 @@ img {
         -ms-filter: none;
         filter: none;
     }
-}
+} */
