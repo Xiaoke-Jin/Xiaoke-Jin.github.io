@@ -22,25 +22,7 @@ img {
     color: black;
 }
 
-#page-header.full_page {
-    height: 100vh;
-    background-attachment: fixed;
-}
-
-#page-header {
-    position: relative;
-    width: 100%;
-    background-color: #49b1f5;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    transition: all 0.5s;
-}
-#web_bg {
+/* #web_bg {
     position: fixed;
     z-index: -999;
     width: 100%;
@@ -52,7 +34,7 @@ img {
     -moz-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 /* @keyframes to_show {
     0% {
